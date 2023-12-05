@@ -1,81 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATERI-BUKPED with One Piece Animation</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            overflow: hidden;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
-
-        section {
-            padding: 2rem;
-            text-align: center;
-        }
-
-        .one-piece-character {
-            width: 150px;
-            height: auto;
-            animation: float 3s infinite;
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-20px);
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MATERI-BUKPED</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbs5ud+6GO9bs6uJ6/d1WAuM7h5jfiN2z21bTmMzUGn4z6Uyoq4t9xzyA2Tl0hF" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <h1>MATERI-BUKPED with One Piece Animation</h1>
-    </header>
 
-    <section>
-        <h2>Introduction to One Piece</h2>
-        <p>
-            Welcome to MATERI-BUKPED! Explore our educational materials while enjoying the adventure with One Piece characters.
-        </p>
-        <img src="luffy.png" alt="Monkey D. Luffy" class="one-piece-character">
-    </section>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">MATERI-BUKPED</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#programming">Programming</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#science">Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mathematics">Mathematics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#literature">Literature</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <section>
-        <h2>Programming with the Straw Hat Pirates</h2>
-        <p>
-            Learn programming languages with the help of Monkey D. Luffy and his crew. Each character represents a different language!
-        </p>
-        <img src="zoro.png" alt="Roronoa Zoro" class="one-piece-character">
-        <img src="nami.png" alt="Nami" class="one-piece-character">
-        <img src="usopp.png" alt="Usopp" class="one-piece-character">
-        <!-- Add more characters as needed -->
-    </section>
+  <!-- Content -->
+  <div class="container mt-4">
+    <h1>Welcome to MATERI-BUKPED</h1>
+    <p>Explore educational materials on various subjects.</p>
 
-    <section>
-        <h2>Mathematics with Chopper</h2>
-        <p>
-            Join Tony Tony Chopper to explore the world of mathematics. He's a doctor, after all!
-        </p>
-        <img src="chopper.png" alt="Tony Tony Chopper" class="one-piece-character">
-    </section>
+    <!-- Subjects -->
+    <div class="row mt-4">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Programming</h5>
+            <p class="card-text">Materials related to programming languages.</p>
+            <a href="./programming" class="btn btn-primary">Explore</a>
+          </div>
+        </div>
+      </div>
 
-    <!-- Add more sections for other subjects -->
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Science</h5>
+            <p class="card-text">Materials covering various scientific disciplines.</p>
+            <a href="./science" class="btn btn-primary">Explore</a>
+          </div>
+        </div>
+      </div>
 
-    <footer>
-        <p>&copy; 2023 MATERI-BUKPED. All Rights Reserved.</p>
-    </footer>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Mathematics</h5>
+            <p class="card-text">Math-related educational materials.</p>
+            <a href="./mathematics" class="btn btn-primary">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Literature</h5>
+            <p class="card-text">Literary materials and resources.</p>
+            <a href="./literature" class="btn btn-primary">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (Optional, if you need Bootstrap JavaScript features) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-fLgt1AZh7S7v5+Zh3yFYu4A09uefL+Vu6I18K3OqwnlHiQ5m/K5FkwM5b9DRiIbh" crossorigin="anonymous"></script>
+
 </body>
 </html>
