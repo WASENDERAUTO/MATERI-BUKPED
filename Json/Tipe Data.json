@@ -1,0 +1,12 @@
+{
+    "nama": "Alice",
+    "umur": 25,
+    "saudara": ["Bob", "Charlie"],
+    "sudahMenikah": false,
+    "alamat": {
+      "jalan": "Jl. Raya",
+      "kota": "Surabaya"
+    },
+    "hobi": null
+  }
+  

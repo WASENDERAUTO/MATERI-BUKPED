@@ -1,0 +1,7 @@
+var data = {
+    "nama": "Alice",
+    "umur": 25
+  };
+  
+  console.log(data.nama); // Output: Alice
+  
