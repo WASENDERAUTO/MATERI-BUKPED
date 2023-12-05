@@ -1,0 +1,17 @@
+button {
+    transition: background-color 0.3s ease;
+  }
+  
+  @keyframes gerakan {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100px);
+    }
+  }
+  
+  .gambar {
+    animation: gerakan 2s infinite;
+  }
+  

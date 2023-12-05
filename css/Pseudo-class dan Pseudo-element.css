@@ -1,0 +1,8 @@
+a:hover {
+    color: purple;
+  }
+  
+  p::first-line {
+    font-weight: bold;
+  }
+  

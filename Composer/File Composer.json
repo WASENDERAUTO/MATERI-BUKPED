@@ -1,0 +1,7 @@
+{
+    "name": "nama/proyek",
+    "description": "Deskripsi proyek",
+    "require": {
+        "vendor/paket": "versi"
+    }
+}
