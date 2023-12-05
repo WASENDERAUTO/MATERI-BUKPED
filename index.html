@@ -3,72 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATERI-BUKPED</title>
-
-    <!-- Anime.js CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
-
+    <title>MATERI-BUKPED with One Piece Animation</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+            overflow: hidden;
         }
 
-        #header {
+        header {
+            background-color: #333;
+            color: #fff;
             text-align: center;
-            margin-bottom: 30px;
+            padding: 1rem;
         }
 
-        #logo {
-            font-size: 3em;
-            color: #ff7f50;
-            margin-bottom: 10px;
-        }
-
-        #description {
-            font-size: 1.5em;
-            color: #333;
-        }
-
-        #animation-container {
-            width: 100%;
+        section {
+            padding: 2rem;
             text-align: center;
         }
 
-        #anime-character {
-            width: 100px;
-            height: 100px;
-            margin-top: 20px;
+        .one-piece-character {
+            width: 150px;
+            height: auto;
+            animation: float 3s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>MATERI-BUKPED with One Piece Animation</h1>
+    </header>
 
-    <div id="header">
-        <div id="logo">MATERI-BUKPED</div>
-        <div id="description">Educational Materials Repository</div>
-    </div>
+    <section>
+        <h2>Introduction to One Piece</h2>
+        <p>
+            Welcome to MATERI-BUKPED! Explore our educational materials while enjoying the adventure with One Piece characters.
+        </p>
+        <img src="luffy.png" alt="Monkey D. Luffy" class="one-piece-character">
+    </section>
 
-    <div id="animation-container">
-        <div id="anime-character">📘</div>
-    </div>
+    <section>
+        <h2>Programming with the Straw Hat Pirates</h2>
+        <p>
+            Learn programming languages with the help of Monkey D. Luffy and his crew. Each character represents a different language!
+        </p>
+        <img src="zoro.png" alt="Roronoa Zoro" class="one-piece-character">
+        <img src="nami.png" alt="Nami" class="one-piece-character">
+        <img src="usopp.png" alt="Usopp" class="one-piece-character">
+        <!-- Add more characters as needed -->
+    </section>
 
-    <script>
-        // Anime.js animation
-        anime({
-            targets: '#anime-character',
-            translateX: 250,
-            easing: 'easeInOutQuad',
-            direction: 'alternate',
-            loop: true
-        });
-    </script>
+    <section>
+        <h2>Mathematics with Chopper</h2>
+        <p>
+            Join Tony Tony Chopper to explore the world of mathematics. He's a doctor, after all!
+        </p>
+        <img src="chopper.png" alt="Tony Tony Chopper" class="one-piece-character">
+    </section>
 
+    <!-- Add more sections for other subjects -->
+
+    <footer>
+        <p>&copy; 2023 MATERI-BUKPED. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
