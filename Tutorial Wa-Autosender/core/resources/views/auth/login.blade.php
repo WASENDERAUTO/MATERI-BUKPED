@@ -8,7 +8,7 @@
 
     <title>LOGIN - CYBEROREN GATEWAY</title>
 
-    <meta name="description" content="LAZY GATEWAY" />
+    <meta name="description" content="CYBEROREN GATEWAY" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{!! asset('assets') !!}/img/favicon.png" />

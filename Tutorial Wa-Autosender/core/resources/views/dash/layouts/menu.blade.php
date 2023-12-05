@@ -110,7 +110,7 @@
             </li>
         @endif
         <li class="menu-item">
-            <a href="https://velixs.com/item/WAREN-whatsap-gateway-md" class="menu-link">
+            <a href="https://wa-cyberoren.my.id" class="menu-link">
                 <i class="menu-icon tf-icons ti ti-code" style="margin-bottom: 2px;"></i>
                 <div data-i18n="Version 3.0.0">Version 4.x</div>
                 <div class="badge bg-label-success rounded-pill ms-auto">Current</div>
