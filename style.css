@@ -1,0 +1,17 @@
+/* Add your custom styles here */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card {
+    height: 100%;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
