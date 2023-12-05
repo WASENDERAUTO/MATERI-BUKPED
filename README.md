@@ -23,8 +23,8 @@ The content is organized into folders based on subjects. Each subject folder con
 
 1. [Programming](./programming)
    - JavaScript
-   - Python
-   - Java
+   - Php
+   - Css
    - ...
 
 2. [Science](./science)
